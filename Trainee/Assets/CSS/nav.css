@@ -1,0 +1,58 @@
+.nav_bar{
+    float:left;
+    width: auto;
+    background-color: azure;
+    color: black;
+}
+.li{
+    display: inline-block;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+table,th,td{
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+thead{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+tbody{
+    background-color: azure;
+}
+tfoot{
+    background-color: brown;
+    color: aliceblue;
+}
+
+legend{
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+fieldset{
+    color: blue;
+}
+input{
+    border-color:darkcyan;
+}
+.Button{
+    color: black;
+}
+.Submit{
+    float: left;
+    padding-right: 25px;
+}
+.Reset{
+    float: center;
+}
+main{
+    border: 2px solid black;
+    padding: 5px;
+}
+footer{
+    border: 2px solid red;
+    margin-top: 10px;
+    padding: 8px;
+}

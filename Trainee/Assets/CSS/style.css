@@ -1,0 +1,16 @@
+.img{
+    height: 200px;
+    width: 300px;
+    border: 2px black solid;
+}
+
+.par_div{
+    border: 2px black solid;
+    height: fit-content;
+    width: fit-content;
+}
+.pre_tag{
+    border: 1px black solid;
+    height: fit-content;
+    width: fit-content;
+}

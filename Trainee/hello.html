@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/nav.css">
+    <link rel="shortcut icon" href="Assets/Icon/favicon.png" type="image/x-icon">
+    <title>Home page</title>
+</head>
+<body>
+    <header>
+        <nav role="alert">
+            <ul class ="nav_bar">
+                <li class="li"><a href="#">Home</a></li>
+                <li class="li"><a href="#">Details</a></li>
+                <li class="li"><a href="#">About us</a></li>
+                <li class="li"><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br><br>
+    <main>
+        <aside></aside>
+        <div>
+            <fieldset>
+                <legend>Rich Kids</legend>
+            <ul type="circle"> 
+                <li>Manish</li>
+                <li>Manish</li>
+                <li>Manish</li>
+            </ul>
+        </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Poor Kids</legend>
+            <ol type="A">
+                <li>Manikanth</li>
+                <li>Sagar</li>
+                <li>Anand</li>
+                <li>Gururaj</li>
+            </ol>
+        </fieldset>
+        </div>
+        <hr>
+        <br>
+        <div>    
+            <fieldset>
+                <legend>Personal Info</legend>
+            First Name : <input type="text" placeholder="First Name"> 
+            <br>
+            <br>
+            Second Name : <input type="text" placeholder="Second Name">
+        </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Contact Info</legend>
+            Email : <input type="mail" placeholder="Email">
+            <br><br>
+            Mobile : <input type="tel" placeholder="Mobile No">
+           
+        </fieldset>
+        </div>
+        <br><br>
+        <div>
+            <fieldset>
+                <legend>Addition</legend>
+                <form oninput="result.value=parseInt(num1.value)+parseInt(num2.value)">
+                Number 1 : <input type="number" name="num1" placeholder="Number1"> <br><br>
+                Number 2 : <input type="number" name="num2" placeholder="Number2"><br><br>
+                Result is : <output name="result"></output>
+            </fieldset>
+        </div>
+        <br><br>
+        <div class="Button">
+            <fieldset>
+                <legend>Buttons</legend>
+                <div class="Submit">
+                <input type="submit" value="Submit" >
+            </div>
+            <div class="Reset">
+                <input type="reset" value="Reset">
+            </div>
+            </fieldset>
+        </div>
+        <br><br>
+        <div>
+            <fieldset>
+                <legend>Table</legend>
+                <table>
+                    <caption>Dummy table</caption>
+                    <thead>
+                    <tr>
+                    <th>SI.No</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+                      </thead>
+                <tbody>
+                <tr >
+                    <td>1</td>
+                    <td>Mobile</td>
+                    <td rowspan="2">8000</td>
+                </tr>
+               <tr>
+                <td>2</td>
+                <td>Charger</td>
+               </tr>
+               <tr>
+                <td>3</td>
+                <td>Laptop</td>
+                <td>25000</td>
+               </tr>
+            </tbody>
+               <tr>
+                <tfoot>
+                <td colspan="2">Total</td>
+                <td>33000</td>
+            </tfoot>
+               </tr>
+                </table>
+            </fieldset>
+        </div>
+        <br><br>
+        <div>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Article Writer Info</legend>
+                <article>
+                    <address>
+                        This article is written by : Manish Mullur <br>
+                        Position : Cheif of Criminal Investigation.
+                    </address>
+                </article>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Abbrivation</legend>
+                    <abbr title="Rastriya Swayam Sevak Sangh">R.S.S</abbr><br>
+                    My name is <abbr title="Anand Muragayya Sankrattimath"> A.M.S'math.</abbr>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Datalist</legend>
+                <input list="dist">
+                <datalist id="dist">
+                    <option value="Bagalkot"></option>
+                    <option value="Vijayapur"></option>
+                    <option value="Rayachur"></option>
+                </datalist>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Item list</legend>
+                <select>
+                    <optgroup label="Dell Laptop">Dell Laptop
+                    <option value="" disabled>Dell i3</option>
+                    <option value="">Dell i5</option>
+                    <option value="">Dell i7</option>
+                </optgroup>
+                <optgroup label="HP Laptop">
+                    <option value="">HP i3</option>
+                    <option value="" selected>HP i5</option>
+                    <option value="">HP i7</option>
+                </optgroup>
+                </select>
+            </fieldset>
+        </div>
+    </main>
+    <footer>
+        <fieldset>
+            <legend>Owner Info</legend>
+            <Address>
+                This is done by : Manish Mullur <br>
+                Position : SDE
+        </fieldset>
+    </footer>
+</body>
+</html>
