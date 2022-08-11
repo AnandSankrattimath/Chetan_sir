@@ -1,0 +1,15 @@
+body{
+    
+background-image:url(/Assets/Images/img1.jpg),
+url(/Assets/Images/img2.jpg),
+url(/Assets/Images/img3.jpg) ;
+background-repeat: no-repeat,no-repeat,no-repeat;
+background-size: 250px;
+background-position: 0px 500px,center top,right top;
+}
+
+/* body{
+    background-image: url(/Assets/Images/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: right 500px;
+} */

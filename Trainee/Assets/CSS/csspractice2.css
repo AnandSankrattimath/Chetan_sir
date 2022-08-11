@@ -1,0 +1,6 @@
+body{
+    background-image: url(/Assets/Images/img2.jpg),url(/Assets/Images/img3.jpg),url(/Assets/Images/img1.jpg),url(/Assets/Images/img4.jpg),url(/Assets/Images/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: 20% ; 
+     background-position: 0% 0%,25% 0%,50% 0%,75% 0%,100% 0%;
+}

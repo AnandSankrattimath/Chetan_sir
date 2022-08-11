@@ -1,0 +1,8 @@
+body{
+    size: ;
+    background-image: url(/Assets/Images/moon.jpg),
+    url(/Assets/Images/large.jpg);
+    background-repeat: no-repeat;
+    background-size: 8%,cover;
+    background-position: left top,0% 0%;
+}
